@@ -25,7 +25,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
-(lib.reflect_mask = function(mode,startPosition,loop) {
+(lib.reflect_mask_1442201 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// レイヤー_1
@@ -35,7 +35,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.reflect_mask, new cjs.Rectangle(-147,-123.5,294,247), null);
+}).prototype = getMCSymbolPrototype(lib.reflect_mask_1442201, new cjs.Rectangle(-147,-123.5,294,247), null);
 
 
 (lib.reflect_inner = function(mode,startPosition,loop) {
@@ -269,7 +269,7 @@ p.nominalBounds = new cjs.Rectangle(-56.1,-56.1,112.2,112.30000000000001);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// mask_idn
-	this.reflect_mask = new lib.reflect_mask();
+	this.reflect_mask = new lib.reflect_mask_1442201();
 	this.reflect_mask.name = "reflect_mask";
 	this.reflect_mask.parent = this;
 	this.reflect_mask.setTransform(493,508.45);
